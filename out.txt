@@ -1,0 +1,341 @@
+    1  git clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    2  git -c https.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    3  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    4  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    5  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    6  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    7  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+    8  git 
+    9  GIT_SSL_NO_VERIFY=true git clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git 
+   10  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   11  git clone https://github.com/TerenceJing/javaLearn.git
+   12  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git 
+   13  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   14  rm -rf index.js 
+   15  git add .
+   16  git commit -m "remove files"
+   17  git push origin master
+   18  git add .
+   19  git commit -m "add the file"
+   20  git push origin master
+   21  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   22  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   23  git clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   24  git -c https.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   25  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   26  SET GCM_TRACE=1
+   27  git config --global user.name "bharathi.thangaraj"
+   28  git config --global user.email "bharathi.thangaraj@unimoni.com"
+   29  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   30  git config --global user.name "bharathigr"
+   31  git config --global user.email "bharathigragaraj@gmail.com"
+   32  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   33  code .
+   34  code .
+   35  node testnode.js 
+   36  node testnode.js 
+   37  node testnode.js 
+   38  node
+   39  git add .
+   40  git commit "test"
+   41  git commit -m "test"
+   42  git push origin master
+   43  git config http.sslVerify false
+   44  git push origin master
+   45  touch sample.js
+   46  git status
+   47  git add .
+   48  git commit -m "test sample"
+   49  git push origin master
+   50  git add .
+   51  git commit -m "first exercise"
+   52  git status
+   53  git push origin master
+   54  git status
+   55  code .
+   56  npm init
+   57  npm install express --save
+   58  npm init
+   59  npm config set https-proxy https://proxy.company.com:8080
+   60  npm install express --save
+   61  npm config set https-proxy http://webproxy.uaeexchange.com:8080
+   62  npm config set strict-ssl false
+   63  npm i express --save
+   64  npm i express --save
+   65  code .
+   66  node testnode.js 
+   67  node node_test.js 
+   68  node node_test.js 
+   69  node node_test.js 
+   70  node node_test.js 
+   71  npm i express
+   72  npm init
+   73  npm i express --save
+   74  code .
+   75  git init
+   76  git add .
+   77  git commit -m "test commit"
+   78  git config --global user.name "bharathi thangaraj"
+   79  git config --global user.email "bharathi.thangaraj@unimoni.com"
+   80  get status
+   81  git status
+   82  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   83  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/pllug6pg/bharathi.thangaraj-pllug6pg-1952-3289.git
+   84  git add .
+   85  git status
+   86  git commit "node folder"
+   87  git commit -m "node folder"
+   88  cd ..
+   89  git add .
+   90  git commit -m "push test"
+   91  git push origin master
+   92  git config --global user.name "bharathi.thangaraj"
+   93  git config --global user.email "bharathi.thangaraj@unimoni.com"
+   94  git push origin master
+   95  git push origin master
+   96  git config http.sslVerify false
+   97  git push origin master
+   98  git remote -v
+   99  cd bharathi.thangaraj-pllug6pg-1952-3289/
+  100  mkdir day5
+  101  cd day5/
+  102  code .
+  103  code .
+  104  git init
+  105  git add .
+  106  git status
+  107  npm install method-override --save
+  108  npm install nodemon --save
+  109  npm install -g nodemon
+  110  nodemon app.js 
+  111  node app.js 
+  112  node app.js 
+  113  node app.js 
+  114  node app.js 
+  115  node app.js 
+  116  npm install path --save
+  117  npm install path --save
+  118  node app.js 
+  119  node app.js 
+  120  node app.js 
+  121  node app.js 
+  122  npm install mongoose --save
+  123  npm install mongoose --save
+  124  node app.js
+  125  node app.js
+  126  node app.js
+  127  node app.js
+  128  node app.js
+  129  node app.js
+  130  node app.js 
+  131  node app.js 
+  132  npm install -g nodemon
+  133  nodemon app.js 
+  134  clear
+  135  express myapp
+  136  npm install -g express-generator
+  137  express
+  138  npm install express-generator -g
+  139  express myapp
+  140  npm install express-generator -g
+  141  express -h
+  142  pwd
+  143  express
+  144  express
+  145  express myapp
+  146  code .
+  147  code .
+  148  code .
+  149  npm install express-generator -g
+  150  express
+  151  express my-app
+  152  code .
+  153  npx create-react-app my-app
+  154  npx create-react-app my-app
+  155  npx create-react-app my-app
+  156  cd my-app
+  157  npm start
+  158  code .
+  159  code .
+  160  git commit -m 'challenges'
+  161  code .
+  162  code .
+  163  code .
+  164  git add .
+  165  git init
+  166  git config --global user.name "bharathi thangaraj"
+  167  git config --global user.email "bharathi.thangaraj@unimoni.com"
+  168  git status
+  169  git -c http.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/dov4ogv7/bharathi.thangaraj-dov4ogv7-1960-3313.git
+  170  git init
+  171  code .
+  172  code .
+  173  git remote -v
+  174  rm -rf .git
+  175  git remote -v
+  176  git remote remove origin
+  177  git remote -v
+  178  rm -rf .git
+  179  git 
+  180  git init
+  181  git add .
+  182  git remote add origin http://10.1.104.186/WaveLabs_training/ecotage.git
+  183  git push -u origin master
+  184  git remote -v
+  185  git commit -m "v1"
+  186  git push -u origin master
+  187  git remote add origin http://10.1.104.186/WaveLabs_training/ecotage.git
+  188  git remote remove origin
+  189  git remote add origin http://10.1.104.186/WaveLabs_training/ecotage.git
+  190  git push -u origin --all
+  191  git config --global user.name "Rangan Balasubramaniam"
+  192  git config --global user.email "rangan.b@unimoni.com"
+  193  git remote add origin http://10.1.104.186/WaveLabs_training/ecotage.git
+  194  git push -u origin master
+  195  git push -u origin master
+  196  git remote remove origin
+  197  git remote add origin http://10.1.104.186/WaveLabs_training/ecotage.git
+  198  git push -u origin master
+  199  git remote add origin http://10.1.104.186/ecotage/Ecotage_Beta.git
+  200  git add .
+  201  git status
+  202  git commit -m 'Ecotage beta version initial commit by bharathi'
+  203  git push -u origin master 
+  204  git push -u origin master 
+  205  npm cache clear --force
+  206  git push -u origin master 
+  207  git status
+  208  git config -global user.name "rangan.b"
+  209  git config --global user.name "rangan.b"
+  210  git push -u origin master
+  211  code .
+  212  code .
+  213  code .
+  214  code .
+  215  git init
+  216  git clone http://10.1.104.186/WaveLabs_training/Ecotage_v1.git
+  217  git remote add origin http://10.1.104.186/WaveLabs_training/Ecotage_v1.git
+  218  git add .
+  219  git commit -m "Initial commit"
+  220  git push -u origin master
+  221  code
+  222  code .
+  223  git remote -v 
+  224  git remote remove origin
+  225  rm -rf .git/
+  226  rm -rf .git
+  227  git init
+  228  git add .
+  229  git remote add origin https://github.com/bharathithangaraj/ecotage_github.git
+  230  git status
+  231  git commit -m 'v1'
+  232  git push -u origin master
+  233  git add .
+  234  git commit -m 'modified'
+  235  git push -u origin master
+  236  git add .
+  237  git commit -m 'v1 modified'
+  238  git commit -u origin master
+  239  git push -u origin master
+  240  code .
+  241  code .
+  242  code .
+  243  code .
+  244  git init my-project
+  245  cd my-project/
+  246  ls -
+  247  ls -l
+  248  ls
+  249  pwd
+  250  ls 
+  251  git init
+  252  ls -l
+  253  git add
+  254  git add .
+  255  git status
+  256  git commit -m 'first file commit'
+  257  git status
+  258  git checkout
+  259  git checkout .
+  260  history > out.tt
+  261  git branch
+  262  git branch -r
+  263  git branch -r
+  264  git checkout -b jira-3456
+  265  fir branch
+  266  git branch
+  267  git push
+  268  git push origin jira-3456
+  269  git diff
+  270  history > out.txt
+  271  git init
+  272  git clone https://github.com/mohdafzal21/wluni.git
+  273  git -h
+  274  git --help
+  275  git add .
+  276  git commit -m "modified"
+  277  git push origin master
+  278  git checkout master
+  279  git status
+  280  git push origin master
+  281  git pull
+  282  git push origin master
+  283  git add .
+  284  git commit -m "modified on monday"
+  285  git push origin master
+  286  git init
+  287  git add .
+  288  git remote add https://github.com/bharathithangaraj/JavaPractise.git
+  289  git status
+  290  git push -u origin master
+  291  git commit -m "first commit"
+  292  git push -u origin master
+  293  git remote add https://github.com/bharathithangaraj/JavaPractise.git
+  294  git remote add origin https://github.com/bharathithangaraj/JavaPractise.git
+  295  git push -u origin master
+  296  cd java_collection/
+  297  ls -l
+  298  cd src/
+  299  ls -l
+  300  git rm -r PSEmail.java 
+  301  ls -l
+  302  cd Coolection/
+  303  ls -
+  304  ls -l
+  305  git rm -r PayMyBillsProperties.props 
+  306  cd ..
+  307  cd ..
+  308  git commit -m "unwanted files"
+  309  git push origin master 
+  310  code .
+  311  git clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/dov4ogv7/bharathi.thangaraj-dov4ogv7-1960-3313.git
+  312  git -c https.sslVerify=false clone https://bharathi.thangaraj@git.codinglabs.in:8443/git/UAEXchange/dov4ogv7/bharathi.thangaraj-dov4ogv7-1960-3313.git
+  313  git init
+  314  git add  .
+  315  git commit -m "Node HTTP Server Connect Challenges"
+  316  git push origin master
+  317  git remote -v
+  318  cd ..
+  319  cd Node_Challenges/
+  320  cd bharathi.thangaraj-dov4ogv7-1960-3313/
+  321  ls -l
+  322  git add HttpServerConnect/
+  323  git remote -v
+  324  git commit -m "Node HTTP Server Connect Challenges"
+  325  git push origin master
+  326  git push -u origin master
+  327  git config --global user.name "bharathi.thangaraj"
+  328  git config --global user.email "bharathi.thangaraj@unimoni.com"
+  329  git push -u origin master
+  330  git config http.sslVerify  false
+  331  git push -u origin master
+  332  code .
+  333  git init
+  334  git clone https://gitlab.com/nbostech/springboot-codinglabs.git
+  335  code .
+  336  code .
+  337  git status
+  338  git push origin master
+  339  git clone https://github.com/bharathithangaraj/Ecotage_java.git
+  340  git init
+  341  history > out.txt
