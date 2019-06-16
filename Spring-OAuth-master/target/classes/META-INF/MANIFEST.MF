@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: EcotageOauth2
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: bharathi.thangaraj
+Implementation-Vendor-Id: com.devglan
+Build-Jdk: 1.8.0_192
+Implementation-URL: http://projects.spring.io/spring-boot/EcotageOauth
+ 2/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

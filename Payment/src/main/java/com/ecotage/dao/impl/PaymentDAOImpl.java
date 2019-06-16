@@ -97,8 +97,6 @@ public class PaymentDAOImpl implements PaymentDAO {
 		System.out.println("List --------------->"+orders.toString());
 		
 		
-		
-		
 		}
 		
 		List<String> productName = new ArrayList<>();
