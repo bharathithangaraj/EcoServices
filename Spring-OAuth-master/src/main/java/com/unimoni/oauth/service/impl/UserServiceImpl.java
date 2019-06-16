@@ -259,6 +259,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 		userDetail.setPincode(userReq.getPincode());
 		userDetail.setLandMark(userReq.getLandMark());
 		userDetail.setAddressType(userReq.getAddressType().OFFICE);
+		userDetail.setCountry(userReq.getCountry());
 		//userDetail.setIsPrimaryAddress(userReq.getIsPrimaryAddress());
 		userDetail.setCreatedOn(new Date()); userDetail.setModifiedOn(new Date());
 		userDetail.setUserId(userReq.getUserId());
