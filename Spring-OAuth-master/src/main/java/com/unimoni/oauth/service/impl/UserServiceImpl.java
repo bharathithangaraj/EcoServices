@@ -150,61 +150,75 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 
 	@Override
 	public UserDetailDto updateUserDetail(UserDetailReq userDetailReq) {
-		if (userDetailReq == null || userDetailReq.getUserDetailId() == null) {
+		if (userDetailReq == null ) {
 			throw new UsernameNotFoundException("Could not update the user detail. loginName is missing");
 		}
-		User user = userDao.findByUserId(userDetailReq.getUserId());
-		user.setFirstName(userDetailReq.getFirstName());
-		user.setLastName(userDetailReq.getLastName());
-		userDao.save(user);
+		System.out.println("coming for user details updation::::"+userDetailReq.toString());
 		
-		UserDetail userDetail = userDetailDao.findByUserDetailId(userDetailReq.getUserDetailId());
-		if (userDetail.getName().equals(userDetailReq.getName())) {
+		User user = userDao.findByUserId(userDetailReq.getUserId());
+		if(user != null) {
+			if(userDetailReq.getFirstName() != null) {
+				user.setFirstName(userDetailReq.getFirstName());
+			}
+			if(userDetailReq.getLastName() != null) {
+				user.setLastName(userDetailReq.getLastName());
+			}
+			
+			userDao.save(user);
+		}
+		
+		
+		UserDetail userDetail = userDetailDao.findByUserId(userDetailReq.getUserId()).get(0);
+		
+		if (userDetailReq.getName() != null && !(userDetail.getName().equals(userDetailReq.getName())) ) {
 			userDetail.setName(userDetailReq.getName());
 		}
-		if (userDetail.getGender().equals(userDetailReq.getGender())) {
-			userDetail.setGender(userDetailReq.getGender());
-		}
-		if (userDetail.getLocation().equals(userDetailReq.getLocation())) {
+//		if (null != userDetailReq.getGender() && userDetail.getGender().equals(userDetailReq.getGender())) {
+//			userDetail.setGender(userDetailReq.getGender());
+//		}
+		if (userDetailReq.getLocation() != null && !(userDetail.getLocation().equals(userDetailReq.getLocation())) ) {
 			userDetail.setLocation(userDetailReq.getLocation());
 		}
 
-		if (userDetail.getHouseNo().equals(userDetailReq.getHouseNo())) {
+		if (userDetailReq.getHouseNo() != null && !(userDetail.getHouseNo().equals(userDetailReq.getHouseNo())) ) {
 			userDetail.setHouseNo(userDetailReq.getHouseNo());
 		}
 
-		if (userDetail.getAddress1().equals(userDetailReq.getAddress1())) {
+		if (userDetailReq.getAddress1() != null && !(userDetail.getAddress1().equals(userDetailReq.getAddress1())) ) {
 			userDetail.setAddress1(userDetailReq.getAddress1());
 		}
 
-		if (userDetail.getAddress2().equals(userDetailReq.getAddress2())) {
+		if (userDetailReq.getAddress2() != null && !(userDetail.getAddress2().equals(userDetailReq.getAddress2())) ) {
 			userDetail.setAddress2(userDetailReq.getAddress2());
 		}
-		if (userDetail.getMobileNo().equals(userDetailReq.getMobileNo())) {
+		if (userDetailReq.getMobileNo() != null && !(userDetail.getMobileNo().equals(userDetailReq.getMobileNo())) ) {
 			userDetail.setMobileNo(userDetailReq.getMobileNo());
 		}
-		if (userDetail.getCity().equals(userDetailReq.getCity())) {
+		if (userDetailReq.getCity() != null && !(userDetail.getCity().equals(userDetailReq.getCity())) ) {
 			userDetail.setCity(userDetailReq.getCity());
 		}
-		if (userDetail.getState().equals(userDetailReq.getState())) {
+		if (userDetailReq.getState() !=null && !(userDetail.getState().equals(userDetailReq.getState())) ) {
 			userDetail.setState(userDetailReq.getState());
+		}
+		if (userDetailReq.getCountry() !=null && !(userDetail.getCountry().equals(userDetailReq.getCountry())) ) {
+			userDetail.setCountry(userDetailReq.getCountry());
 		}
 		if (userDetail.getPincode() != userDetailReq.getPincode()) {
 			userDetail.setPincode(userDetailReq.getPincode());
 		}
-		if (userDetail.getLandMark().equals(userDetailReq.getLandMark())) {
+		if (userDetailReq.getLandMark() != null  && !(userDetail.getLandMark().equals(userDetailReq.getLandMark())) ) {
 			userDetail.setLandMark(userDetailReq.getLandMark());
 		}
-		if (userDetail.getAddressType().equals(userDetailReq.getAddressType())) {
-			userDetail.setAddressType(userDetailReq.getAddressType());
-		}
-		if (userDetail.getIsPrimaryAddress().equals(userDetailReq.getIsPrimaryAddress())) {
-			userDetail.setIsPrimaryAddress(userDetailReq.getIsPrimaryAddress());
-		}
+//		if (null != userDetailReq.getAddressType() && userDetail.getAddressType().equals(userDetailReq.getAddressType())) {
+//			userDetail.setAddressType(userDetailReq.getAddressType());
+//		}
+//		if (userDetailReq.getIsPrimaryAddress() && !userDetail.getIsPrimaryAddress().equals(userDetailReq.getIsPrimaryAddress())) {
+//			userDetail.setIsPrimaryAddress(userDetailReq.getIsPrimaryAddress());
+//		}
 		userDetail.setModifiedOn(new Date());
-		if (null == userDetail.getUserDetailIdentity() || userDetail.getUserDetailIdentity().length() == 0) {
-			userDetail.setUserDetailIdentity(encryptFromId(userDetail.getUserDetailId()));
-		}
+//		if ( userDetail.getUserDetailIdentity() != null || userDetail.getUserDetailIdentity().length() == 0) {
+//			userDetail.setUserDetailIdentity(encryptFromId(userDetail.getUserDetailId()));
+//		}
 		userDetailDao.save(userDetail);
 
 		return mapper.map(userDetail, UserDetailDto.class);
@@ -237,7 +251,10 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 		
 		List<UserDetail> findUserDtls = userDetailDao.findByUserId(userReq.getUserId());
 		
-		if( findUserDtls.isEmpty()) {
+		if( !findUserDtls.isEmpty()) {
+			System.out.println("going to update user details ------->"+userReq.getFirstName());
+			userDtls = updateUserDetail(userReq);
+		}else {
 	
 		UserDetail userDetail = new UserDetail();
 		System.out.println("userReq.getFirstName() ------->"+userReq.getFirstName());
@@ -267,7 +284,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 		//userDetail.setUserIdentity(userDetail.hashCode());
 		//userDtls = userDetailDao.save(userDetail);
 		userDtls = mapper.map(userDetail, UserDetailDto.class);
-		}
+		} 
 		
 		
 		return userDtls;

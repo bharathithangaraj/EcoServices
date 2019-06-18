@@ -40,11 +40,14 @@ public class UserDetailDto extends UserDto {
 		super();
 	}
 
-	public UserDetailDto(Long userDetailId, String name, Gender gender, String location, String houseNo,
+	
+	public UserDetailDto(Long userDetailId, String userId, String name, Gender gender, String location, String houseNo,
 			String address1, String address2, String mobileNo, String city, String state, int pincode, String landMark,
-			AddressType addressType, Boolean isPrimaryAddress, Date createdOn, Date modifiedOn) {
+			AddressType addressType, Boolean isPrimaryAddress, Date createdOn, Date modifiedOn,
+			String userDetailIdentity, String country) {
 		super();
 		this.userDetailId = userDetailId;
+		this.userId = userId;
 		this.name = name;
 		this.gender = gender;
 		this.location = location;
@@ -60,9 +63,13 @@ public class UserDetailDto extends UserDto {
 		this.isPrimaryAddress = isPrimaryAddress;
 		this.createdOn = createdOn;
 		this.modifiedOn = modifiedOn;
+		this.userDetailIdentity = userDetailIdentity;
+		this.country = country;
 	}
 
-	
+
+
+
 	public String getCountry() {
 		return country;
 	}

@@ -225,4 +225,16 @@ public class UserDetailReq extends UserReq {
 		this.userIdentity = userIdentity;
 	}
 
+	@Override
+	public String toString() {
+		return "UserDetailReq [userDetailId=" + userDetailId + ", name=" + name + ", gender=" + gender + ", location="
+				+ location + ", houseNo=" + houseNo + ", address1=" + address1 + ", address2=" + address2
+				+ ", mobileNo=" + mobileNo + ", city=" + city + ", State=" + State + ", pincode=" + pincode
+				+ ", landMark=" + landMark + ", addressType=" + addressType + ", isPrimaryAddress=" + isPrimaryAddress
+				+ ", createdOn=" + createdOn + ", modifiedOn=" + modifiedOn + ", userIdentity=" + userIdentity
+				+ ", firstName=" + firstName + ", lastName=" + lastName + ", country=" + country + "]";
+	}
+	
+	
+
 }

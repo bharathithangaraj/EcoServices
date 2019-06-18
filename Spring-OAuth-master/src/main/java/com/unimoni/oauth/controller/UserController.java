@@ -29,7 +29,7 @@ public class UserController {
 		return userService.registerUser(user);
 	}
 
-	@PostMapping(value = "/login/{userId}")
+	@PostMapping(value = "/login/{userId:.+}")
 	public UserDto getUserDetail(@PathVariable(value = "userId") String loginId) {
 		
 		System.out.println("userId ::::::::::"+loginId);
